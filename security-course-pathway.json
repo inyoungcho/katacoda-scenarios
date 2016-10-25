@@ -1,0 +1,24 @@
+{
+  "title": "Docker Security Course",
+  "icon": "fa-docker",
+  "description": "This course contains labs on how to take advantage of Docker security features.
+  Moreover, the kabs will explain the strong security defaults in Docker for each feature",
+  "courses": [
+    {
+      "course_id": "userns-lab-1",
+      "title": "User Namespaces",
+      "description": "Minimal example of combining Katacoda scenarios into courses pt 1."
+    },
+    {
+      "course_id": "example-2",
+      "title": "Demo Course 2",
+      "description": "Minimal example of combining Katacoda scenarios into courses pt 2."
+    },
+    {
+      "course_id": "example-3",
+      "title": "Demo Course 3",
+      "description": "Minimal example of combining Katacoda scenarios into courses pt 3."
+    }
+  ]
+}
+Contact GitHub API Training Shop Blog About
