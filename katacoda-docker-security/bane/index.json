@@ -1,0 +1,27 @@
+{
+	"pathwayTitle": "Docker Security",
+	"backend": {
+		"imageid": "docker-direct"
+	},
+	"environment": {
+		"uilayout": "terminal"
+	},
+	"details": {
+		"steps": [{
+			"title": "AppArmor",
+			"text": "step1.md"
+		},{
+			"title": "Bane",
+			"text": "step2.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Bane - AppArmor Profile Generator",
+	"description": "Learn how to use github.com/jessfraz/bane"
+}

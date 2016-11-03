@@ -1,0 +1,5 @@
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@docker "curl -LO https://raw.githubusercontent.com/katacoda/oscon2016-docker-perf-sec/master/tutorial/2_Security/2_seccomp/1_chmod.json"
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@docker "sudo curl -LO http://assets.joinscrapbook.com/docker-1-11-static.tgz"
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@docker "sudo tar -xvzf docker-1-11-static.tgz"
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@docker "sudo mv docker/* /usr/bin/"
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@docker "sudo service docker restart"

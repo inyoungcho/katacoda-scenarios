@@ -1,0 +1,26 @@
+{
+	"pathwayTitle": "Docker Security",
+	"backend": {
+		"imageid": "docker-direct",
+	},
+	"environment": {
+		"uilayout": "terminal"
+	},
+	"details": {
+		"steps": [{
+			"title": "Apply SecComp Profile",
+			"text": "step1.md"
+		}, {
+			"title": "Identify Syscalls",
+			"text": "step2.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Seccomp"
+}

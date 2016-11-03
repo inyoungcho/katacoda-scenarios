@@ -1,0 +1,33 @@
+{
+	"pathwayTitle": "Docker Security",
+	"backend": {
+		"imageid": "docker-direct"
+	},
+	"environment": {
+		"uilayout": "terminal"
+	},
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Identify current Docker user",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2 - Change Container User",
+			"text": "step2.md"
+		}, {
+			"title": "Step 3 - Enabling User Namespaces",
+			"text": "step3.md"
+		}, {
+			"title": "Step 4 - User Namespaces Protection",
+			"text": "step4.md"
+		}
+    ],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "User Namespaces"
+}

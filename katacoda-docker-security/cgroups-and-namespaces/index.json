@@ -1,0 +1,36 @@
+{
+	"pathwayTitle": "Docker Security",
+	"backend": {
+		"imageid": "docker-direct"
+	},
+	"environment": {
+		"uilayout": "terminal"
+	},
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Define Memory Limits",
+			"text": "step1.md"
+		}, {
+			"title": "Define CPU Shares",
+			"text": "step2.md"
+		}, {
+			"title": "Use Network Namespace",
+			"text": "step3.md"
+		}, {
+			"title": "Use Pid Namespace",
+			"text": "step4.md"
+		}, {
+			"title": "Sharing Namespaces",
+			"text": "step5.md"
+		}
+    ],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "CGroups and Namespaces"
+}
